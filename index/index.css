@@ -1,6 +1,286 @@
-body{
-    background-image:url(../img/general/yellowBody.jpg);
+body {
+    background-image: url(../img/general/yellowBody.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.carousel-indicators li {
+    list-style: none;
+}
+
+.articleHorario {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.articleHorarioInside {
+    display: flex;
+    align-items: center;
+}
+
+.divHorarioInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divHorarioInside p {
+    margin: 0;
+    font-size: 10px;
+}
+
+p {
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.section2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 1%;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+.articleUltimosProductos {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.articleUltimosProductos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleUltimosProductos .aDescripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    font-size: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    color: black;
+}
+
+.aDescripcion:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+.articleArticulosGrid {
+    display: grid;
+    grid-template-areas: "   -    imagen1    -   "
+        "imagen2 imagen3 imagen9"
+        "imagen4 imagen5 imagen6"
+        "imagen10 imagen7 imagen8";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 1fr 1fr 1fr;
+    row-gap: 2px;
+    column-gap: 2px;
+}
+
+.imagen1 {
+    grid-area: "imagen1";
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.imagen2 {
+    grid-area: "imagen2";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(../img/index/bg01_mother.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen3 {
+    grid-area: "imagen3";
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(../img/index/bg02_ram.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen4 {
+    grid-area: "imagen4";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(../img/index/bg03_gabinete.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen5 {
+    grid-area: "imagen5";
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(../img/index/bg04_placavideo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen6 {
+    grid-area: "imagen6";
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(../img/index/bg05_perifericos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen7 {
+    grid-area: "imagen7";
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(../img/index/bg06_monitor.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen8 {
+    grid-area: "imagen8";
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(../img/index/bg07_fuente.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen9 {
+    grid-area: "imagen9";
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(../img/index/bg08_disco.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen10 {
+    grid-area: "imagen10";
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(../img/index/bg09_micro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.imagen1 p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.pImg {
+    color: white;
+    font-size: 20px;
+}
+
+.divAuto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+    border-radius: 2%;
+    background-color: rgb(0, 0, 0, 0.8);
+    opacity: 0;
+}
+
+.divAuto:hover {
+    transition: 0.8s;
+    opacity: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+footer article {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+footer article p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.articleFooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.articleFooter img{
+    width: 60px;
+    height: 60px;
+}
+
+.pFooter {
+    font-size: 15px;
 }

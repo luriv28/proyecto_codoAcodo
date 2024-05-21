@@ -1,104 +1,299 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OasisByte</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body class="body">
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<html lang="es">
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link link-danger"
-                  aria-disabled="true"
-                  href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active link-danger"
-                  aria-current="page"
-                  href="#"
-                  >Categorías</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link link-danger"
-                  href="../productos/productos.html"
-                  >Productos</a
-                >
-              </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OasisByte</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css" />
+</head>
 
-              <li class="nav-item">
-                <a class="nav-link link-danger" href="#">Cómo comprar</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle link-danger"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Información
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-danger" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
+<body class="body">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../img/index/logo.png" alt="" style="width:60px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Categorías</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../productos/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cómo comprar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Información
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search" />
+            <button class="btn" type="submit">
+              Buscar
+            </button>
+          </form>
         </div>
-      </nav>
-    </header>
-    <main></main>
-    <footer></footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <article>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="../img/index/359c3fe03d3b559de94ed8b281c629d2.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/index/788b44e3ff1f473cce8232403d7a0295.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/index/85755ac6dd721ac3ec01833d3915d9e3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/index/d8edf05884dd6b3cd2d68acecd4bd217.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../img/index/f96aedc1ae01e701de8a9962445d789e.jpg" alt="Fifth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </article>
+      <article class="articleHorario">
+        <article class="articleHorarioInside">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 7V12L9.5 13.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+              stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div class="divHorarioInside">
+            <p>
+              HORARIO DE ATENCIÓN
+            </p>
+            <p>
+              Lunes a Viernes
+            </p>
+            <p>
+              9hs a 18hs
+            </p>
+          </div>
+        </article>
+        <article class="articleHorarioInside">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M18.5 18C18.5 19.1046 17.6046 20 16.5 20C15.3954 20 14.5 19.1046 14.5 18M18.5 18C18.5 16.8954 17.6046 16 16.5 16C15.3954 16 14.5 16.8954 14.5 18M18.5 18H21.5M14.5 18H13.5M8.5 18C8.5 19.1046 7.60457 20 6.5 20C5.39543 20 4.5 19.1046 4.5 18M8.5 18C8.5 16.8954 7.60457 16 6.5 16C5.39543 16 4.5 16.8954 4.5 18M8.5 18H13.5M4.5 18C3.39543 18 2.5 17.1046 2.5 16V7.2C2.5 6.0799 2.5 5.51984 2.71799 5.09202C2.90973 4.71569 3.21569 4.40973 3.59202 4.21799C4.01984 4 4.5799 4 5.7 4H10.3C11.4201 4 11.9802 4 12.408 4.21799C12.7843 4.40973 13.0903 4.71569 13.282 5.09202C13.5 5.51984 13.5 6.0799 13.5 7.2V18M13.5 18V8H17.5L20.5 12M20.5 12V18M20.5 12H13.5"
+              stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div class="divHorarioInside">
+            <p>
+              ENVÍOS A DOMICILIO
+            </p>
+            <p>
+              Envíos a todo el país
+            </p>
+            <p>
+              Camioneta / Moto
+            </p>
+          </div>
+        </article>
+        <article class="articleHorarioInside">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M9 12L11 14L15 9.99999M20 12C20 16.4611 14.54 19.6937 12.6414 20.683C12.4361 20.79 12.3334 20.8435 12.191 20.8712C12.08 20.8928 11.92 20.8928 11.809 20.8712C11.6666 20.8435 11.5639 20.79 11.3586 20.683C9.45996 19.6937 4 16.4611 4 12V8.21759C4 7.41808 4 7.01833 4.13076 6.6747C4.24627 6.37113 4.43398 6.10027 4.67766 5.88552C4.9535 5.64243 5.3278 5.50207 6.0764 5.22134L11.4382 3.21067C11.6461 3.13271 11.75 3.09373 11.857 3.07827C11.9518 3.06457 12.0482 3.06457 12.143 3.07827C12.25 3.09373 12.3539 3.13271 12.5618 3.21067L17.9236 5.22134C18.6722 5.50207 19.0465 5.64243 19.3223 5.88552C19.566 6.10027 19.7537 6.37113 19.8692 6.6747C20 7.01833 20 7.41808 20 8.21759V12Z"
+              stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <div class="divHorarioInside">
+            <p>
+              PRODUCTOS OFICIALES
+            </p>
+            <p>
+              Garantia asegurada
+            </p>
+            <p>
+              + de 500 productos
+            </p>
+          </div>
+        </article>
+      </article>
+    </section>
+    <section class="section2">
+      <article class="articleUltimosProductos">
+        <div>
+          <p>ULTIMOS PRODUCTOS</p>
+          <a href="">Ver más</a>
+        </div>
+        <a class="aDescripcion" href=""><img
+            src="https://static.nb.com.ar/i/nb_MONITOR-PHILIPS-LED-24-241V8L_size_h100_81bb9f4ce1bab0ccb64638ce1974a330.jpg"
+            alt="MONITOR PHILIPS LED 24 241V8L"></div>
+          <p>MONITOR PHILIPS LED 24 241V8L</p>
+        </a>
+        <a class="aDescripcion" href=""><img
+            src="https://static.nb.com.ar/i/nb_WATER-COOLER-GIGABYTE-AORUS-WATERFORCE-X280_size_h100_8d0036109f6be4f09f984625c0ce7373.jpeg"
+            alt="WATER COOLER GIGABYTE AORUS WATERFORCE X280"></div>
+          <p>WATER COOLER GIGABYTE AORUS WATERFORCE X280</p>
+        </a>
+        <a class="aDescripcion" href=""><img
+            src="https://static.nb.com.ar/i/nb_WATER-COOLER-GIGABYTE-AORUS-WATERFORCE-X360_size_h100_5f956dd31ac501b20c50eb65b60d9ce8.png"
+            alt="WATER COOLER GIGABYTE AORUS WATERFORCE X360"></div>
+          <p>WATER COOLER GIGABYTE AORUS WATERFORCE X360</p>
+        </a>
+        <a class="aDescripcion" href=""><img
+            src="https://static.nb.com.ar/i/nb_MOTHER-GIGABYTE-(LGA1700)-B760M-DS3H-DDR4_size_h100_a48695da55997cb85135f221f35809da.jpg"
+            alt="MOTHER GIGABYTE (LGA1700) B760M DS3H DDR4"></div>
+          <p>MOTHER GIGABYTE (LGA1700) B760M DS3H DDR4</p>
+        </a>
+      </article>
+    </section>
+    <section class="section2">
+      <article class="articleArticulosGrid">
+        <div class="imagen1">
+          <p>NUESTROS PRODUCTOS</p>
+        </div>
+        <a class="imagen2" href="">
+          <div class="divAuto">
+            <p class="pImg">MOTHERBOARDS</p>
+          </div>
+        </a>
+        <a class="imagen3" href="">
+          <div class="divAuto">
+            <p class="pImg">MEMORIAS RAM</p>
+          </div>
+        </a>
+        <a class="imagen4" href="">
+          <div class="divAuto">
+            <p class="pImg">GABINETES</p>
+          </div>
+        </a>
+        <a class="imagen5" href="">
+          <div class="divAuto">
+            <p class="pImg">PLACAS DE VIDEO</p>
+          </div>>
+        </a>
+        <a class="imagen6" href="">
+          <div class="divAuto">
+            <p class="pImg">PERIFERICOS</p>
+          </div>
+        </a>
+        <a class="imagen7" href="">
+          <div class="divAuto">
+            <p class="pImg">MONITORES</p>
+          </div>
+        </a>
+        <a class="imagen8" href="">
+          <div class="divAuto">
+            <p class="pImg">FUENTES</p>
+          </div>
+        </a>
+        <a class="imagen9" href="">
+          <div class="divAuto">
+            <p class="pImg">DISCOS</p>
+          </div>
+        </a>
+        <a class="imagen10" href="">
+          <div class="divAuto">
+            <p class="pImg">MICROPROCESADORES</p>
+          </div>
+        </a>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <article class="articleFooter">
+      <div>
+        <img src="../img/index/logo.png" alt="">
+      </div>
+      <div>
+        <p class="pFooter">Direccion</p>
+        <p>Av. Jujuy 1039, CABA</p>
+        <p>CP. C1229ABF</p>
+      </div>
+      <div>
+        <p class="pFooter">Contacto</p>
+        <p>correo@mccorreo.com</p>
+        <p>(5411) 4011-8800 Líneas Rotativas</p>
+      </div>
+    </article>
+    <article>
+      <p>Copyright © 2024 Todos los Derechos Reservados
+        | Importador
+        | Distribuidor
+        | Articulos de Computación
+      </p>
+    </article>
+    <article>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+          fill="#0F0F0F" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+          fill="#0F0F0F" />
+        <path
+          d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+          fill="#0F0F0F" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+          fill="#0F0F0F" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none">
+        <path
+          d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+          fill="#0F0F0F" />
+        <path
+          d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+          fill="#0F0F0F" />
+        <path
+          d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+          fill="#0F0F0F" />
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+          fill="#0F0F0F" />
+      </svg>
+    </article>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
