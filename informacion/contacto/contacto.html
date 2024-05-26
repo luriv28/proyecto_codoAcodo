@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../index/index.css" />
-    <link rel="stylesheet" href="./vistaProducto.css">
-    <link rel="icon" type="image/x-icon" href="../img/index/logo.png">
-    <title>Vista Producto</title>
+    <link rel="stylesheet" href="../../index/index.css">
+    <link rel="stylesheet" href="./contacto.css">
+    <link rel="icon" type="image/x-icon" href="../../img/index/logo.png">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index/index.html"><img src="../img/index/logo.png" alt="" style="width:60px"></a>
+                <a class="navbar-brand" href="../../index/index.html"><img src="../../img/index/logo.png" alt=""
+                        style="width:60px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -26,24 +27,26 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true" href="../index/index.html">Home</a>
+                            <a class="nav-link" aria-disabled="true" href="../../index/index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index/index.html#section2">Categorías</a>
+                            <a class="nav-link" aria-current="page"
+                                href="../../index/index.html#section2">Categorías</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../productos/productos.html">Productos</a>
+                            <a class="nav-link" href="../../productos/productos.html">Productos</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                              aria-expanded="false">
-                              Información
+                                aria-expanded="false">
+                                Información
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="../informacion/contacto/contacto.html">Contacto</a></li>
-                              <li><a class="dropdown-item" href="../informacion/quienesSomos/quienesSomos.html">Quienes Somos</a></li>
+                                <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                                <li><a class="dropdown-item" href="../quienesSomos/quienesSomos.html">Quienes Somos</a>
+                                </li>
                             </ul>
-                          </li>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search" />
@@ -56,56 +59,37 @@
         </nav>
     </header>
     <main>
-        <aside class="asideProducto">
-            <a href="../productos/productos.html">MOTHERBOARDS</a>
-            <a href="../productos/productos.html">MEMORIAS RAM</a>
-            <a href="../productos/productos.html">GABINETES</a>
-            <a href="../productos/productos.html">PLACAS DE VIDEO</a>
-            <a href="../productos/productos.html">PERIFERICOS</a>
-            <a href="../productos/productos.html">MONITORES</a>
-            <a href="../productos/productos.html">FUENTES</a>
-            <a href="../productos/productos.html">DISCOS</a>
-            <a href="../productos/productos.html">MICROPROCESADORES</a>
-        </aside>
-        <section>
-            <article class="articleImagenProducto">
-                <div class="divImg">
-                    <img src="https://static.nb.com.ar/i/nb_mother-asrock-am4-b550m-pro4_size_h680_0f1ef2fe8596203d33f98d1b58da2253.jpg"
-                        alt="">
-                </div>
+        <section class="sectionContacto">
+            <h2>Formulario de Contacto</h2>
+            <h5>Contactate con OasisByte:</h5>
+            <form class="formContacto" action="" method="">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label>¿Desea suscribirse a nuestro Newsletter?</label>
                 <div>
-                    <h3>Nombre Producto</h3>
-                    <p>Stock</p>
-                    <p>Precio</p>
-                    <button type="button" class="btn btn-light">COMPRAR</button>
+                    <label for="opcion1">Si</label>
+                    <input type="radio" id="opcion1" name="suscripcion" value="si">
+                    <label for="opcion2">No</label>
+                    <input type="radio" id="opcion2" name="suscripcion" value="no">
                 </div>
-            </article>
-            <article class="articleDescripcion">
-                <h5>
-                    Descripcion de producto
-                </h5>
-                <p class="pDescripcion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis laudantium omnis. Ex
-                    eligendi officiis ab consequatur eius suscipit possimus distinctio recusandae unde, quasi
-                    voluptatibus aliquam exercitationem autem quis ducimus!
-                </p>
-            </article>
-            <article class="articleDescripcion">
-                <h5>
-                    Atributos de producto
-                </h5>
-                <p class="pDescripcion">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, numquam doloribus rem non
-                    incidunt distinctio est atque recusandae, laboriosam error obcaecati odio, natus aut molestias?
-                    Sequi a sint possimus odio.
-                </p>
-            </article>
+                <label for="pais">País:</label>
+                <select id="pais" name="pais">
+                    <option value="1">Argentina</option>
+                    <option value="2">Brasil</option>
+                    <option value="3">Chile</option>
+                    <option value="4">México</option>
+                    <option value="5">España</option>
+                </select>
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
         </section>
     </main>
     <footer>
         <article class="articleFooter">
             <div>
-                <img src="../img/index/logo.png" alt="">
+                <img src="../../img/index/logo.png" alt="">
             </div>
             <div>
                 <p class="pFooter">Direccion</p>
