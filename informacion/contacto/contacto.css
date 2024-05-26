@@ -1,0 +1,32 @@
+.sectionContacto{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sectionContacto h2{
+    padding: 2%;
+}
+
+.sectionContacto h5{
+    padding: 2%;
+}
+
+.formContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    row-gap: 10px;
+}
+
+.formContacto div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: start;
+}

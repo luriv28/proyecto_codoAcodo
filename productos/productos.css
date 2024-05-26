@@ -1,10 +1,218 @@
 body{
-    background-image:url(/img/general/yellowBody.jpg);
+    background-image:url(../img/general/yellowBody.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
+
+
+.carousel-indicators li {
+    list-style: none;
+}
+
+.articleHorario {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.articleHorarioInside {
+    display: flex;
+    align-items: center;
+}
+
+.divHorarioInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divHorarioInside p {
+    margin: 0;
+    font-size: 10px;
+}
+
+p {
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.section2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+.articleUltimosProductos {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.articleUltimosProductos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleUltimosProductos .aDescripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 10%;
+    font-size: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    color: black;
+}
+
+.aDescripcion:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.card-body:hover{
+    color: darkgrey;
+    transition: 0.5s;
+
+}
+
+a:hover {
+    color: gray;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cards{
     padding: 10px;
+}
+
+.vistaProducto{
+text-decoration: none;
+text-align: center;
+}
+
+.divAuto:hover {
+    transition: 0.8s;
+    opacity: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+footer article {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+footer article p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.articleFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.articleFooter img{
+    width: 70px;
+    height: 70px;
+}
+
+.pFooter {
+    font-size: 15px;
 }
